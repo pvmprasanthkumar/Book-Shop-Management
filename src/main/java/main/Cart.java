@@ -30,7 +30,7 @@ public class Cart extends Bill{
     	int total=0;
     	for (int i = 0; i < noOfItems; i++)
     	{
-    		total = total + (inCart.get(i).mrp * quant.get(i));
+    		total = total + (inCart.get(i).mrp * quant.get(i));    		
     	}
     	return total;
     	
